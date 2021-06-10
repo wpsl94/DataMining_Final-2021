@@ -1,6 +1,6 @@
 {
     "id": "CB7D5C74",
-    "path": "~/final project/01-1_PreProcessing.R",
+    "path": "~/GitHub/DataMining_Final-2021/2021_DM_Final-72200117-Kim HeeJu/01-1_PreProcessing.R",
     "project_path": "01-1_PreProcessing.R",
     "type": "r_source",
     "hash": "716041416",
@@ -14,7 +14,7 @@
         "source_window_id": "",
         "Source": "Source",
         "cursorPosition": "50,1",
-        "scrollLine": "40"
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1623270336,

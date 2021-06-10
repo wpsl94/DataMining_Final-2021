@@ -1,6 +1,6 @@
 {
     "id": "50F6F1C5",
-    "path": "~/final project/02_LinearRegression.R",
+    "path": "~/GitHub/DataMining_Final-2021/2021_DM_Final-72200117-Kim HeeJu/02_LinearRegression.R",
     "project_path": "02_LinearRegression.R",
     "type": "r_source",
     "hash": "15983285",
@@ -14,7 +14,7 @@
         "source_window_id": "",
         "Source": "Source",
         "cursorPosition": "105,12",
-        "scrollLine": "87"
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1623277415,
