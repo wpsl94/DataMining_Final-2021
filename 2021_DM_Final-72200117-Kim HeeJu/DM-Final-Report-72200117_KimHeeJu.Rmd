@@ -16,8 +16,20 @@ output:
 <style>
 body {
   font-family: NanumGothic;
-  font-size: 17px;
+  font-size: 16px;
+  line-height: 1.85;
 }
+
+blockquote {
+    font-size: 16px;
+}
+
+th, td { 
+      font-size: 13px;
+      border-collapse: collapse;
+      border-width:3px
+    }
+
 </style>
 
 ---
@@ -211,7 +223,7 @@ HV.scl <- as.data.frame(scale(HV), class = HV[, 101])
 HV.log.scl <- as.data.frame(scale(HV.log),  class = HV[,101])
 ```
 
-![](https://user-images.githubusercontent.com/19165180/121421288-fa8a7a00-c9a8-11eb-9f36-a30a2d1f9e88.png)
+<p align="center">![](https://user-images.githubusercontent.com/19165180/121421288-fa8a7a00-c9a8-11eb-9f36-a30a2d1f9e88.png)</p>
 <br>
 
 ***
@@ -312,7 +324,7 @@ log.HV.rm.norm <- data.frame(normalize(log(HV.rm[,-101])), class = HV.rm$class)
 
 <br>
 
-![](https://user-images.githubusercontent.com/19165180/121427834-20674d00-c9b0-11eb-96c0-7dd112e48848.png)
+<p align="center">![](https://user-images.githubusercontent.com/19165180/121427834-20674d00-c9b0-11eb-96c0-7dd112e48848.png)</p>
 
 **[Definition]**
 
@@ -762,9 +774,13 @@ summary(lm7)
 <br>  
 
 > - **Selected Feature :** "X3"  "X6"  "X9"  "X16" "X90" 총 5개  
-> - **Using Method :** `Best First Search` (or `Forward Search`)  
+> <br>
+> - **Using Method :** `Best First Search` (or `Forward Search`)   
+> <br>
 > - **Accuracy :** <span style="color:red">0.5395152</span>  
+> <br>
 > - **특이사항 :** `K-fold cross validation Accuracy `값은 가장 높으나 그 외의 값들은 <u>현저히 떨어지는 양상</u>을 나타내고 있음. 과도한 변수 생략으로 인한 것으로 유추됨  
+
 
 <br>
 <br>  
@@ -773,9 +789,13 @@ summary(lm7)
 <br>  
 
 > - **Selected Feature :** "X1"    "X2"    "X3"    "X4"    "X5"    "X6"    "X8"    "X9"    "X11"   "X12"   "X13"   "X14"   "X15"   "X17"   "X19"   "X22"   "X23"   "X29"   "X30"   "X33"   "X36"   "X39"   "X41"   "X44"   "X45"   "X48"   "X53"   "X55"   "X57"   "X64"   "X65"   "X66"   "X70"   "X73"   "X74"   "X79"   "X81"   "X83"   "X85"   "X86"   "X87"   "X88"   "X91"   "X93"   "X94"   "X95"   "X96"   "X97"   "X98"   "X99"   "X100" 총 51개  
+> <br>
 > - **Using Method :** `mRMR` and `stepAIC()`  
+> <br>
 > - **Accuracy :** <span style="color:red">0.5264646</span>  
-> - **특이사항 :** 가장 높은 모델 설명도와 전반적으로 평이한 성능평가 결과를 나타내고 있음. 가장 높은 Accuracy를 표현하고 있지 않지만, 어느정도 신뢰도가 높은 모델로 판단이 됨  
+> <br>
+> - **특이사항 :** 가장 높은 모델 설명도와 전반적으로 평이한 성능평가 결과를 나타내고 있음. 가장 높은 Accuracy를 표현하고 있지 않지만, 어느정도 신뢰도가 높은 모델로 판단이 됨                                                                               
+
 
 <br>
 
@@ -812,7 +832,7 @@ summary(lm7)
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/19165180/121446031-a3e36700-c9cd-11eb-8710-b0e0a51626b4.png" alt="image" style="zoom: 33%;" />                     <img src="https://user-images.githubusercontent.com/19165180/121446192-f6bd1e80-c9cd-11eb-8161-dcf95b1f57e6.png" alt="image" style="zoom: 33%;" />  
+<p align="center"><img src="https://user-images.githubusercontent.com/19165180/121446031-a3e36700-c9cd-11eb-8710-b0e0a51626b4.png" alt="image" style="zoom: 33%;" />                     <img src="https://user-images.githubusercontent.com/19165180/121446192-f6bd1e80-c9cd-11eb-8161-dcf95b1f57e6.png" alt="image" style="zoom: 33%;" />  </p>
 
 
 > Exhausted Search 코드가 이틀이 지나도 안끝나서 무엇이 잘못되었다는 것을 깨달았을 때 나누었던 대화.  
@@ -836,7 +856,7 @@ summary(lm7)
 
 <br>  
 
-<img src="https://user-images.githubusercontent.com/19165180/121447049-d7bf8c00-c9cf-11eb-8910-edada0d796ea.png" alt="image" style="zoom: 50%;" />  
+<p align="center"><img src="https://user-images.githubusercontent.com/19165180/121447049-d7bf8c00-c9cf-11eb-8910-edada0d796ea.png" alt="image" style="zoom: 50%;" />  </p>
 
 
 >함께 당황하고 있는 다른 연구실의 외국인 수강생  
@@ -854,7 +874,7 @@ summary(lm7)
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/19165180/121448500-c166ff80-c9d2-11eb-9349-6acefd60fbd8.png" alt="image" style="zoom: 50%;" />  
+<p align="center"><img src="https://user-images.githubusercontent.com/19165180/121448500-c166ff80-c9d2-11eb-9349-6acefd60fbd8.png" alt="image" style="zoom: 50%;" />  </p>
 
 > 너무나도 당연하게 Class 의 Type이 Factor라고 생각한 것 같다  
 > 앞으로는 당연하게 넘기는 것이 아닌, 데이터를 받으면 당연해보이는 것들도 반드시 확인하는 습관을 들이도록 해야겠다고 느꼈다.  
