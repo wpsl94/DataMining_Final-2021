@@ -10,7 +10,7 @@ author: "72200117 Kim Hee Ju"
 
 <br>  
 
-#### **시작하기 전에..**  
+#### **👏 시작하기 전에..** 
 
 ><details><summary></summary>현재 R Markdown 내부 오류 중 Knitr 라이브러리와 관련된 이슈가 발생하였습니다.Chunk가 실행이 되는 도중 Object를 찾지 못하는 에러가 발생했고, 이로 인해 현재 제 다양한 라이브러리와 참조변수가 많이 짜여져 있는 제 코드를 MArkdown v2에서는 Chunk단위로 실행시키기가 어려워 Data의 구성과 함께 설명드리며 결과를 보여드리기 불가한 점 미리 양해부탁드립니다.  <br>
 >해당 이슈를 해결하기 위해해 문서를 찾아보는 중에, Markdown v1이후 kntir 패키지를 더 이상 따로 지원을 하지 않아 발생하는 오류 중 하나라고 하였습니다.   
@@ -225,7 +225,7 @@ normalize <- function(x) {
 <br>
 <br><br>
 
-### **3. k-fold Cross Validation **
+### **3. k-fold Cross Validation**
 
 <br>
 
@@ -336,7 +336,7 @@ class를 설명하는데 중요한 변수가 무엇이 있는지 파악하기 �
 
 
 
-### **7.Model Evaluation ** 
+### **7.Model Evaluation** 
 
 <br>
 
