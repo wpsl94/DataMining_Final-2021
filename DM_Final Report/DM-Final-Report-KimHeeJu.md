@@ -1,40 +1,9 @@
 ---
-title: "Data Mining(2021)-Final Report"
-author: "72200117 Kim Hee Ju"
-date: '2021 6 10 '
-output:
-  html_document:
-    toc: yes
-    toc_depth: 4
-    toc_float: true
-    theme: yeti
-    keep_md: yes
 
+*Title: "Feature Selection Report"*    
 
----
+*Author: "72200117 Kim Hee Ju"*  
 
-<style>
-body {
-  font-family: NanumGothic;
-  font-size: 16px;
-  line-height: 1.85;
-}
-
-blockquote {
-    font-size: 16px;
-}
-
-th, td { 
-      font-size: 13px;
-      border-collapse: collapse;
-      border-width:3px
-    }
-
-</style>
-
----
-
-*Title: "Feature Selection Report"*  
 *Due date: '2021 6 11 '*  
 
 ------
@@ -154,7 +123,7 @@ Feature Selection을 만들기 위해 Feature Subset을 형성하기 위한 전�
   **[2] Outlier detection and elimination**
 
   **[3] Normalization**  
-  
+
 <br>  
 
 이러한 전처리과정을 통해 모델의 성능을 전반적으로 향상시킬 수 있도록 한다. 
@@ -167,7 +136,7 @@ Feature Selection을 만들기 위해 Feature Subset을 형성하기 위한 전�
 
 <br>  
 
-****  
+****
 
 <br>  
 
@@ -209,7 +178,7 @@ library("praznik") # MRMR
 > * 표준화를 통해 정보들을 통일하여 각 변수들 간에 비교가 가능해짐  
 
 
-  
+
 `Standardization`은 내장되어 있는 함수인 `Scale`함수를 통해 진행하였다.   
 
 또한 skewness때문에 편향되어 있어, log변환을 진행한 후, standardization을 진행해보기도 하였다.  
@@ -819,9 +788,9 @@ summary(lm7)
 <br>  
 
 <br>  
-  
+
 #### **(1) Exhausted Search**  
-  
+
 <br>  
 
 
@@ -846,7 +815,7 @@ summary(lm7)
 <br>
 
 #### **(2) Accuracy = 0...?**
-  
+
 <br>  
 
 
@@ -888,7 +857,7 @@ summary(lm7)
 <br>
 
 #### **(3) 이렇게 많은 변수들에 대해서 Outlier를 어떻게 그려내야 하는가**
-  
+
 <br>  
 
 
@@ -900,16 +869,6 @@ summary(lm7)
 
 <br>
 
-<br>
-
-사실 학부시절에 k-mooc을 통해서 오세종 교수님의 R 기초강의만 진행을 해 보았지만, 이렇게까지 제대로 접해보는 데이터 분석은 처음이라 많이 부족하고, 아직 알아가야 하는 것들이 많이 남았지만, 나름 재미를 붙이고, 또 생각보다 성향이 잘 맞는 부분이 많이 있다는 생각이 들었다. 특히 현재 나의 세부 전공이 **`빅데이터 및 인공지능기술을 활용한 맞춤형 추천 알고리즘 기반의 플랫폼 설계`** **(맞춤형 추천 서비 플랫폼 설계)** 인 만큼 이번 데이터마이닝을 통해 습득한 기술이 정말 많은 도움을 줄 것이라는 생각이 들었다. 이를 기반으로 올해 석사를 마무리 하는 시점에 치뤄지는 빅데이터 기사 자격시험(ADsP, ADP)에도 응시를 해보고자 하는 계기가 생겼다.   
-
-<br>
-
-<br>
-
-<br>
-
 #### **R codes** 
 
 본 과제의 소스코드는 `Github`에 모두 공개되어 있으며, 소스코드 및 사용한 데이터셋을 모두 확인할 수 있습니다.  
@@ -917,8 +876,6 @@ summary(lm7)
    <br>
 
 * **Github URL : <https://github.com/wpsl94/DataMining_Final-2021>**  
-
-- **이번 한 학기 동안 많은 내용을 쉽고 유익하게 알려주신 오세종 교수님께  정말 감사드립니다! 고생많으셨습니다!**   
 
 **<br>**  
 
@@ -929,5 +886,4 @@ summary(lm7)
 <br>
 
 <br>
-
 
