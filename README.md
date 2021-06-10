@@ -1,7 +1,7 @@
 ---
 
-title: "Data Mining(2021)-Final Report"
-author: "72200117 Kim Hee Ju"  
+*Title: "Data Mining(2021)-Final Report"*  
+*Author: "72200117 Kim Hee Ju"*  
 *Due date: '2021 6 10 '*  
 
 ------
@@ -25,7 +25,7 @@ author: "72200117 Kim Hee Ju"
 <br> <br>
 <br>  
 
-### **[Assignment]**
+### **[Assignment]** 💡
 
 **Hill_Vally 데이터셋에 대해 가장 높은 분류 정확도를 제공하는 Feature의 집합과 Accuracy를 제시하시오**     
 
@@ -38,7 +38,7 @@ author: "72200117 Kim Hee Ju"
 
 <br>
 
-### **1. Prepare for Data Analysis**  
+### **1. Prepare for Data Analysis**  📊
 
 <br>
 
@@ -108,7 +108,7 @@ for(i in 1:100){
 <br>
     
 
-### **2. Data Pre-Processing**
+### **2. Data Pre-Processing** ⛏
 
 <br>
 
@@ -225,7 +225,7 @@ normalize <- function(x) {
 <br>
 <br><br>
 
-### **3. k-fold Cross Validation**
+### **3. k-fold Cross Validation** 🥞
 
 <br>
 
@@ -268,7 +268,7 @@ normalize <- function(x) {
 
 <br>
 
-### **4. Feature Selection**
+### **4. Feature Selection** ✍
 
 <br>
 
@@ -315,7 +315,7 @@ Raw Dataset, Pre-processed Dataset, Customized Dataset 총 세 가지에 대한 
 
  <br> <br>     
 
-### **5. Linear Regression**
+### **5. Linear Regression** 🧶
 
 <br>
 
@@ -326,7 +326,7 @@ class를 설명하는데 중요한 변수가 무엇이 있는지 파악하기 �
 <br>
 
 
-### **6.  Logistic Regression**  
+### **6.  Logistic Regression**  💊
 
 <br>
 
@@ -336,7 +336,7 @@ class를 설명하는데 중요한 변수가 무엇이 있는지 파악하기 �
 
 
 
-### **7.Model Evaluation** 
+### **7.Model Evaluation** 🎲
 
 <br>
 
